@@ -7,23 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E538014F6A03D8AF58AF1DF1 /* Pods_HackSChedule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64A07F5F97F97683E25C5660 /* Pods_HackSChedule.framework */; };
+		F23BD9CF209B94F1008721C4 /* Combinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23BD9CE209B94F1008721C4 /* Combinator.swift */; };
+		F2450327209C3DFD0001C95C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2450326209C3DFC0001C95C /* Assets.xcassets */; };
+		F2B23A02209A15A000189F5B /* CourseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B23A01209A15A000189F5B /* CourseTableViewCell.swift */; };
+		F2B23A04209A3D1700189F5B /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B23A03209A3D1700189F5B /* NavigationController.swift */; };
+		F2B23A06209A46A000189F5B /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B23A05209A46A000189F5B /* SearchTableViewController.swift */; };
+		F2B23A08209A7AAE00189F5B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F2B23A07209A7AAE00189F5B /* GoogleService-Info.plist */; };
+		F2B23A0A209A80F600189F5B /* Trojan.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B23A09209A80F600189F5B /* Trojan.swift */; };
 		F2CDABCE208BA52500AA6FDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CDABCD208BA52500AA6FDE /* AppDelegate.swift */; };
-		F2CDABD0208BA52500AA6FDE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CDABCF208BA52500AA6FDE /* ViewController.swift */; };
-		F2CDABD3208BA52500AA6FDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2CDABD1208BA52500AA6FDE /* Main.storyboard */; };
 		F2CDABD6208BA52500AA6FDE /* HackSChedule.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F2CDABD4208BA52500AA6FDE /* HackSChedule.xcdatamodeld */; };
-		F2CDABD8208BA52500AA6FDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2CDABD7208BA52500AA6FDE /* Assets.xcassets */; };
 		F2CDABDB208BA52500AA6FDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2CDABD9208BA52500AA6FDE /* LaunchScreen.storyboard */; };
+		F2CDABE3208BA66B00AA6FDE /* CourseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CDABE2208BA66B00AA6FDE /* CourseTableViewController.swift */; };
+		F2D6623A209AB7AD00F5725A /* CoursesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D66239209AB7AD00F5725A /* CoursesModel.swift */; };
+		F2D6623C209AD74A00F5725A /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D6623B209AD74A00F5725A /* CalendarViewController.swift */; };
+		F2DE8DD8209BB14C0028810B /* CourseBlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DE8DD7209BB14C0028810B /* CourseBlockView.swift */; };
+		F2DE8DDA209BC81A0028810B /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DE8DD9209BC81A0028810B /* Colors.swift */; };
+		F2DE8DDC209BF0610028810B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DE8DDB209BF0610028810B /* Extensions.swift */; };
+		F2DE8DDE209BFDD00028810B /* NavCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DE8DDD209BFDD00028810B /* NavCollectionViewCell.swift */; };
+		F2EBAB89209B565700BDC529 /* Scheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EBAB88209B565700BDC529 /* Scheduler.swift */; };
+		F2EE71C920F7BD6E007FA05B /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2EE71C820F7BD6D007FA05B /* AdSupport.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		64A07F5F97F97683E25C5660 /* Pods_HackSChedule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HackSChedule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EF26B0987B9B5836CA2EBFC /* Pods-HackSChedule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackSChedule.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HackSChedule/Pods-HackSChedule.debug.xcconfig"; sourceTree = "<group>"; };
+		B3613845C85917940CFD907E /* Pods-HackSChedule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackSChedule.release.xcconfig"; path = "Pods/Target Support Files/Pods-HackSChedule/Pods-HackSChedule.release.xcconfig"; sourceTree = "<group>"; };
+		F23BD9CE209B94F1008721C4 /* Combinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Combinator.swift; sourceTree = "<group>"; };
+		F2450326209C3DFC0001C95C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2B23A01209A15A000189F5B /* CourseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseTableViewCell.swift; sourceTree = "<group>"; };
+		F2B23A03209A3D1700189F5B /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		F2B23A05209A46A000189F5B /* SearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
+		F2B23A07209A7AAE00189F5B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F2B23A09209A80F600189F5B /* Trojan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trojan.swift; sourceTree = "<group>"; };
 		F2CDABCA208BA52500AA6FDE /* HackSChedule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackSChedule.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2CDABCD208BA52500AA6FDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F2CDABCF208BA52500AA6FDE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F2CDABD2208BA52500AA6FDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F2CDABD5208BA52500AA6FDE /* HackSChedule.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HackSChedule.xcdatamodel; sourceTree = "<group>"; };
-		F2CDABD7208BA52500AA6FDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2CDABDA208BA52500AA6FDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2CDABDC208BA52500AA6FDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2CDABE2208BA66B00AA6FDE /* CourseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseTableViewController.swift; sourceTree = "<group>"; };
+		F2D66239209AB7AD00F5725A /* CoursesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesModel.swift; sourceTree = "<group>"; };
+		F2D6623B209AD74A00F5725A /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		F2DE8DD7209BB14C0028810B /* CourseBlockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseBlockView.swift; sourceTree = "<group>"; };
+		F2DE8DD9209BC81A0028810B /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		F2DE8DDB209BF0610028810B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		F2DE8DDD209BFDD00028810B /* NavCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavCollectionViewCell.swift; sourceTree = "<group>"; };
+		F2EBAB88209B565700BDC529 /* Scheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scheduler.swift; sourceTree = "<group>"; };
+		F2EE71C820F7BD6D007FA05B /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +61,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2EE71C920F7BD6E007FA05B /* AdSupport.framework in Frameworks */,
+				E538014F6A03D8AF58AF1DF1 /* Pods_HackSChedule.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		261B13A59C615CC0C3EC9449 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8EF26B0987B9B5836CA2EBFC /* Pods-HackSChedule.debug.xcconfig */,
+				B3613845C85917940CFD907E /* Pods-HackSChedule.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		302F8877A04718CF81DA63B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2EE71C820F7BD6D007FA05B /* AdSupport.framework */,
+				64A07F5F97F97683E25C5660 /* Pods_HackSChedule.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F2CDABC1208BA52500AA6FDE = {
 			isa = PBXGroup;
 			children = (
 				F2CDABCC208BA52500AA6FDE /* HackSChedule */,
 				F2CDABCB208BA52500AA6FDE /* Products */,
+				261B13A59C615CC0C3EC9449 /* Pods */,
+				302F8877A04718CF81DA63B6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +109,58 @@
 			isa = PBXGroup;
 			children = (
 				F2CDABCD208BA52500AA6FDE /* AppDelegate.swift */,
-				F2CDABCF208BA52500AA6FDE /* ViewController.swift */,
-				F2CDABD1208BA52500AA6FDE /* Main.storyboard */,
-				F2CDABD7208BA52500AA6FDE /* Assets.xcassets */,
+				F2EBAB86209B563700BDC529 /* Libraries */,
+				F2D6623E209AF9FC00F5725A /* Models */,
+				F2D6623F209AFA0300F5725A /* Views */,
+				F2D6623D209AF9DA00F5725A /* Controllers */,
 				F2CDABD9208BA52500AA6FDE /* LaunchScreen.storyboard */,
 				F2CDABDC208BA52500AA6FDE /* Info.plist */,
 				F2CDABD4208BA52500AA6FDE /* HackSChedule.xcdatamodeld */,
+				F2B23A07209A7AAE00189F5B /* GoogleService-Info.plist */,
+				F2450326209C3DFC0001C95C /* Assets.xcassets */,
 			);
 			path = HackSChedule;
+			sourceTree = "<group>";
+		};
+		F2D6623D209AF9DA00F5725A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F2B23A03209A3D1700189F5B /* NavigationController.swift */,
+				F2CDABE2208BA66B00AA6FDE /* CourseTableViewController.swift */,
+				F2B23A05209A46A000189F5B /* SearchTableViewController.swift */,
+				F2D6623B209AD74A00F5725A /* CalendarViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F2D6623E209AF9FC00F5725A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F2D66239209AB7AD00F5725A /* CoursesModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F2D6623F209AFA0300F5725A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F2B23A01209A15A000189F5B /* CourseTableViewCell.swift */,
+				F2DE8DD7209BB14C0028810B /* CourseBlockView.swift */,
+				F2DE8DDD209BFDD00028810B /* NavCollectionViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F2EBAB86209B563700BDC529 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				F2B23A09209A80F600189F5B /* Trojan.swift */,
+				F2EBAB88209B565700BDC529 /* Scheduler.swift */,
+				F23BD9CE209B94F1008721C4 /* Combinator.swift */,
+				F2DE8DD9209BC81A0028810B /* Colors.swift */,
+				F2DE8DDB209BF0610028810B /* Extensions.swift */,
+			);
+			path = Libraries;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +170,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F2CDABDF208BA52500AA6FDE /* Build configuration list for PBXNativeTarget "HackSChedule" */;
 			buildPhases = (
+				5861E6BD1705134ECED573D4 /* [CP] Check Pods Manifest.lock */,
 				F2CDABC6208BA52500AA6FDE /* Sources */,
 				F2CDABC7208BA52500AA6FDE /* Frameworks */,
 				F2CDABC8208BA52500AA6FDE /* Resources */,
+				92EA0344A2CA09FA09F25101 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -94,7 +192,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0910;
-				LastUpgradeCheck = 0910;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Andrew Jiang";
 				TargetAttributes = {
 					F2CDABC9208BA52500AA6FDE = {
@@ -127,12 +225,51 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2CDABDB208BA52500AA6FDE /* LaunchScreen.storyboard in Resources */,
-				F2CDABD8208BA52500AA6FDE /* Assets.xcassets in Resources */,
-				F2CDABD3208BA52500AA6FDE /* Main.storyboard in Resources */,
+				F2B23A08209A7AAE00189F5B /* GoogleService-Info.plist in Resources */,
+				F2450327209C3DFD0001C95C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5861E6BD1705134ECED573D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HackSChedule-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92EA0344A2CA09FA09F25101 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HackSChedule/Pods-HackSChedule-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HackSChedule/Pods-HackSChedule-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F2CDABC6208BA52500AA6FDE /* Sources */ = {
@@ -140,22 +277,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2CDABD6208BA52500AA6FDE /* HackSChedule.xcdatamodeld in Sources */,
-				F2CDABD0208BA52500AA6FDE /* ViewController.swift in Sources */,
+				F2B23A04209A3D1700189F5B /* NavigationController.swift in Sources */,
+				F2EBAB89209B565700BDC529 /* Scheduler.swift in Sources */,
+				F2B23A0A209A80F600189F5B /* Trojan.swift in Sources */,
+				F2CDABE3208BA66B00AA6FDE /* CourseTableViewController.swift in Sources */,
+				F2B23A06209A46A000189F5B /* SearchTableViewController.swift in Sources */,
 				F2CDABCE208BA52500AA6FDE /* AppDelegate.swift in Sources */,
+				F23BD9CF209B94F1008721C4 /* Combinator.swift in Sources */,
+				F2DE8DDA209BC81A0028810B /* Colors.swift in Sources */,
+				F2D6623C209AD74A00F5725A /* CalendarViewController.swift in Sources */,
+				F2D6623A209AB7AD00F5725A /* CoursesModel.swift in Sources */,
+				F2B23A02209A15A000189F5B /* CourseTableViewCell.swift in Sources */,
+				F2DE8DDE209BFDD00028810B /* NavCollectionViewCell.swift in Sources */,
+				F2DE8DD8209BB14C0028810B /* CourseBlockView.swift in Sources */,
+				F2DE8DDC209BF0610028810B /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F2CDABD1208BA52500AA6FDE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F2CDABD2208BA52500AA6FDE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F2CDABD9208BA52500AA6FDE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -181,6 +322,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -188,6 +330,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -215,7 +358,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -238,6 +381,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -245,6 +389,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -266,7 +411,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -276,13 +421,14 @@
 		};
 		F2CDABE0208BA52500AA6FDE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EF26B0987B9B5836CA2EBFC /* Pods-HackSChedule.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W56W37KQ33;
 				INFOPLIST_FILE = HackSChedule/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.andrewji.HackSChedule;
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrewjiang.HackSChedule;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -291,13 +437,14 @@
 		};
 		F2CDABE1208BA52500AA6FDE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3613845C85917940CFD907E /* Pods-HackSChedule.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W56W37KQ33;
 				INFOPLIST_FILE = HackSChedule/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.andrewji.HackSChedule;
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrewjiang.HackSChedule;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
